@@ -1,0 +1,7 @@
+set -o vi
+alias vim="nvim"  
+alias vi="nvim"  
+alias vimdiff='nvim -d'  
+# These instructions set vim as default  
+export EDITOR=nvim
+export EDITOR="$VISUAL"  

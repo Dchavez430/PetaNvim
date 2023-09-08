@@ -94,6 +94,9 @@ set nofileignorecase
 " Always add an end-of-line when writing files.
 set fixendofline
 
+" Easy paste in Linux from clipboard. CTRL+SHIFT+v
+set paste
+
 "}}}----------
 "--- Views {{{
 "-------------
