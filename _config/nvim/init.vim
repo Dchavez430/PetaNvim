@@ -1,12 +1,17 @@
 "---------------------------
 "--- NeoVim Startup File ---
 "---------------------------
-"
+" Forked From:
 " Version: 1.3.0
 " Date: 2023-05-11
 " Author: Wesley J. Landaker <wjl@icecavern.net>
 " License: Public domain
 
+" Forked
+" Version: 1.0.0
+" Date: 2023-09-10
+" Author: Diego Chavez
+" License: Public domain
 "---------------
 "--- Plugins {{{
 "---------------
@@ -22,7 +27,7 @@ Plug 'NLKNguyen/papercolor-theme'
 " Huge selection of alternate color schemes.
 Plug 'flazz/vim-colorschemes'
 
-" Lightweight statusline configurator.
+" Lightweight status line configurator.
 Plug 'itchyny/lightline.vim'
 
 " Underline the word under the cursor.
@@ -48,6 +53,9 @@ Plug 'Jorengarenar/vim-syntaxMarkerFold'
 
 " Transparent editing of gpg-encrypted files.
 Plug 'jamessan/vim-gnupg'
+
+" Trial linter
+" Plug 'mfussenegger/nvim-lint/'
 
 call plug#end()
 
