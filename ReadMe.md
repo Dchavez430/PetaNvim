@@ -33,3 +33,8 @@ NVIM:
 	Add the contents of _bashrcAddon.txt to the VERY END of your ~/.bashrc  or /home/$USER/.bashrc file  
 	cat _bashrcAddon.txt | tee -a ~/.bashrc
 	cat _bashrcAddon.txt | tee -a /home/$USER/.bashrc
+linters help ale_supported-list
+
+at a glance:
+	linters:
+		help ale_supported-list
