@@ -57,6 +57,9 @@ Plug 'jamessan/vim-gnupg'
 " Trial linter
 " Plug 'mfussenegger/nvim-lint/'
 
+" Tmux and neovim plugin. Allows seamless intergration with neovim
+Plug 'christoomey/vim-tmux-navigator'
+
 call plug#end()
 
 "}}}----------------
