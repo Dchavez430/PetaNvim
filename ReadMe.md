@@ -29,6 +29,7 @@ NVIM:
 		:PlugInstall  
 		:UpdateRemotePlugins  
 		:q!  
+resource vimrc with :source $MYVIMRC
 
 	Add the contents of _bashrcAddon.txt to the VERY END of your ~/.bashrc  or /home/$USER/.bashrc file  
 	cat _bashrcAddon.txt | tee -a ~/.bashrc
